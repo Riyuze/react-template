@@ -1,6 +1,6 @@
 const Homepage = () => {
     return (
-        <p>Test</p>
+        <p>React Template</p>
     )
 }
 
