@@ -1,9 +1,9 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react'
 
 interface Props {
-  children: ReactNode;
+  children: ReactNode
 }
 
 export default function App({ children }: Props) {
-  return <>{children}</>;
+  return <>{children}</>
 }
