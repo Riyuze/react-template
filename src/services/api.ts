@@ -7,7 +7,7 @@ const api: AxiosInstance = axios.create({
   }
 })
 
-export const apiFetcher = (resource: string) => api.get(resource).then((res) => res.data.data)
+export const apiFetcher = (resource: string) => api.get(resource).then((res) => res.data)
 
 api.interceptors.request.use(
   (config: InternalAxiosRequestConfig): InternalAxiosRequestConfig => {
