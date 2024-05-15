@@ -1,7 +1,8 @@
 # React Template
 ```
-├── App.css (generic CSS)
-├── App.tsx  (application component)
+├── main.tsx (main application component)
+├── routes.tsx  (routes for the application)
+├── main.css (main stylesheet)
 ├── atoms (recoil atom)
 ├── components (shared components)
 ├── hocs (HOC files)
@@ -10,12 +11,10 @@
 ├── models (data model for application)
 ├── pages (pages)
 │   ├── _403.tsx  (do not delete this file)  
-│   ├── _404.tsx (do not delete this file)  
-│   ├── _Error.tsx (do not delete this file)  
+│   ├── _app.tsx (do not delete this file)  
 │   ├── index.tsx 
 ├── services (API call function)
-├── utils (utility function)
-└── variables (shared variable)
+└── utils (utility function)
 ```
 ----
 ## Recoil

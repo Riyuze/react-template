@@ -3,6 +3,7 @@ import { SWRConfig } from 'swr'
 import { apiFetcher } from './services/api'
 import { BrowserRouter } from 'react-router-dom'
 import Routes from './routes'
+import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <SWRConfig
