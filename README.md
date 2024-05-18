@@ -1,4 +1,46 @@
 # React Template
+This template provides a starting point for creating React projects with TypeScript, Tailwind CSS, and Vite. Project structure is also included, along with a pre-commit hook to auto-format your files before committing them.
+
+## Features
+- **TypeScript**: Develop with confidence using static type-checking and improved tooling.
+- **React**: Build dynamic user interfaces with the popular React library.
+- **Tailwind CSS**: Easily style and customize your components using the utility-first approach of Tailwind CSS.
+- **Vite**: Enjoy fast development and instant hot module replacement with Vite's lightning-fast dev server.
+- **Husky**: Automatically lint your code upon committing.
+----
+
+## How to Get Started
+1. Clone the project
+```
+git clone https://github.com/Riyuze/react-template.git
+```
+2. Navigate into the project directory
+```
+cd react-template
+```
+3. Install dependencies
+```
+npm install
+```
+
+----
+## Usage
+To start the development server and run the project, use the following command:
+```
+npm run dev
+```
+This will start the development server and open your project in the browser. Any changes you make to the source code will be automatically reflected in the browser.
+
+----
+## Building for Production
+To build the project for production, use the following command:
+```
+npm run build
+```
+This will create an optimized build of your project in the dist directory.
+
+----
+## Project Structure
 ```
 ├── main.tsx (main application component)
 ├── routes.tsx  (routes for the application)
